@@ -1,0 +1,17 @@
+.Home {
+    width: 100%;
+}
+
+.Home_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.Home_loading {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}

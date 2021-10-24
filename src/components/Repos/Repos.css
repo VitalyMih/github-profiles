@@ -1,0 +1,13 @@
+.Repo {
+    padding-bottom: 5px;
+}
+
+.Repo_link {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+
+.Repo_link:hover {
+    color: white;
+}

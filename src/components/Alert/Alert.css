@@ -1,0 +1,25 @@
+.Alert {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: red;
+    margin-bottom: 15px;
+    padding: 15px 0;
+    border-radius: 7px;
+    opacity: 0.8;
+}
+
+.Alert_text {
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.Alert_button {
+    background-color: initial;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}

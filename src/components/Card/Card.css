@@ -1,0 +1,35 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    flex: 0 0 20%;
+    margin: 15px 0;
+}
+
+.Card_title {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.Card_link {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    transition: all 0.3s linear;
+}
+
+.Card_link:hover {
+    opacity: 0.7;
+}
+
+.Card_image {
+    height: 300px;
+}

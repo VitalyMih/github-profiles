@@ -1,0 +1,139 @@
+.Profile_link {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 110px;
+    border-radius: 7px;
+    transition: opacity 0.3s ease-in;
+}
+
+.Profile_link:hover {
+    opacity: 0.7;
+}
+
+.Profile {
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.Profile_card {
+    margin: 10px;
+    display: flex;
+}
+
+.image-profile_img {
+    width: 300px;
+}
+
+.body-profile_link {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    transition: opacity 0.3s ease-in;
+}
+
+.body-profile_link:hover {
+    opacity: 0.7;
+}
+
+.Profile_image {
+    margin-right: 20px;
+}
+
+.image-profile_name {
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.image-profile_location {
+    text-align: center;
+}
+
+.body-profile_bio {
+    font-weight: bold;
+}
+
+.body-profile_bio p {
+    font-weight: initial;
+    padding: 7px 0;
+}
+
+.body-profile_list {
+    list-style: none;
+    padding: 0;
+}
+
+.body-profile_followers {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.body-profile_follow {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.body-profile_repos {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.body-profile_gists {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.Profile_loading {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Profile_repos{
+    margin-left: 20px;
+}
+
+.repos-profile_title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+
+}
