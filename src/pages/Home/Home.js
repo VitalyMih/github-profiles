@@ -7,7 +7,7 @@ import React from "react";
 
 const Home = () => {
     const {users, loading} = useContext(GithubContext);
-
+    console.log('Первый коммит')
     return (
         <div className="Home">
             <Search />
