@@ -9,6 +9,7 @@ const Home = () => {
     const {users, loading} = useContext(GithubContext);
     console.log('Первый коммит')
     console.log('Второй коммит')
+    console.log('Третий коммит')
     return (
         <div className="Home">
             <Search />
